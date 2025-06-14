@@ -1,0 +1,204 @@
+,Prompt,Generated_Text,Correct_Answer,Parsed_Answer,Evaluation_Score,ParseFail
+2542,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_microeconomics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: The ability for firms to enter and exit a market over time means that
+                    A. the marginal cost is zero
+                    B. the marginal revenue is zero
+                    C. the long run supply curve is more elastic
+                    D. the long run supply curve is more inelastic
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is D. The long run supply curve is more inelastic.```,C,D,0,False
+9023,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about elementary_mathematics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Identify a solution for the equation 5x − 5 = −10 from the given numbers.
+                    A. −1
+                    B. −6
+                    C. −4
+                    D. −3
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is C. -4.```,A,C,0,False
+1822,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about moral_disputes. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question:  Kant's Universal Law formulation does not refer to an agent's wants; rather, it represents
+                    A. an ethical dilemma.
+                    B. a criterion for social acceptability.
+                    C. a way to measure the value of an action's consequences.
+                    D. a kind of consistency test.
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is D. A kind of consistency test.```,D,A,0,False
+1653,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about moral_disputes. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question:  Mary's laptop deserves moral consideration only because she owns it and cares about it. Thus, Mary's laptop has
+                    A. direct moral standing.
+                    B. indirect moral standing.
+                    C. relative moral standing.
+                    D. inherent or intrinsic worth.
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is D. inherent or intrinsic worth.```,B,D,0,False
+156,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about college_chemistry. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Which one of the following statements is true:
+                    A. Large and positive g shifts are observed when the LUMO – HOMO gap is small and λ is positive.
+                    B. Large deviations in g occurs when the energy difference between the SOMO and lowest lying excited state is large.
+                    C. A large deviation of g from ge is expected when λ is large and the energy difference between the SOMO and the lowest lying excited state is small.
+                    D. A small deviation of g from ge is expected when λ is small and positive.
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is C. A large deviation of g from ge is expected when λ is large and the energy difference between the SOMO and the lowest lying excited state is small.```,C,A,0,False
+477,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about machine_learning. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Statement 1| The log-likelihood of the data will always increase through successive iterations of the expectation maximation algorithm. Statement 2| One disadvantage of Q-learning is that it can only be used when the learner has prior knowledge of how its actions affect its environment.
+                    A. True, True
+                    B. False, False
+                    C. True, False
+                    D. False, True
+                    Answer:```
+
+    # Answer:
+    ```","The correct answer is C. True, False```",B,C,0,False
+8513,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_government_and_politics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Which committee in the House of Representatives determines the procedure by which bills are debated and amended?
+                    A. Ways and Means
+                    B. Judiciary
+                    C. Ethics
+                    D. Rules
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is D. Rules. The House of Representatives determines the procedure by which bills are debated and amended through the Rules Committee.```,D,C,0,False
+13428,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_us_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+Clearly, no longer can a dictator count on East–West confrontation to stymie concerted United Nations action against aggression. A new partnership of nations has begun. And we stand today at a unique and extraordinary moment. The crisis in the Persian Gulf, as grave as it is, also offers a rare opportunity to move toward an historic period of cooperation. Out of these troubled times, our fifth objective—a new world order—can emerge; a new era, freer from the threat of terror, stronger in the pursuit of justice, and more secure in the quest for peace. An era in which the nations of the world, east and west, north and south, can prosper and live in harmony.
+—President George Herbert Walker Bush, Speech to a Joint Session of Congress, September 11, 1990
+President George Herbert Walker Bush's vision of a ""new world order"" was most directly made possible by
+                    A. American economic prosperity.
+                    B. President Ronald Reagan's Strategic Defense Initiative.
+                    C. the Iranian Hostage Crisis.
+                    D. the end of the Cold War.
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is D. The end of the Cold War.```,D,C,0,False
+11784,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about prehistory. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: What is the difference between an absolute date and a relative date?
+                    A. An absolute date is known by everyone, while a relative date ranges from 30 to 50 years.
+                    B. A relative date is derived from radiometric dating techniques, while an absolute date is only associated with written documents.
+                    C. A relative date refers to a year or a range of years, while an absolute date indicates a chronological order.
+                    D. An absolute date refers to a year or a range of years, while a relative date indicates a chronological order.
+                    Answer:```
+
+    # Answer:
+    ```","The correct answer is D. An absolute date refers to a year or a range of years, while a relative date indicates a chronological order.```",D,A,0,False
+12379,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about world_religions. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question:  What is the name of the bodhisattva in Japan known for a commitment to alleviating suffering?
+                    A. Amaterasu
+                    B. Izanami
+                    C. Kannon
+                    D. Guanyin
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is B. Izanami.```,C,B,0,False

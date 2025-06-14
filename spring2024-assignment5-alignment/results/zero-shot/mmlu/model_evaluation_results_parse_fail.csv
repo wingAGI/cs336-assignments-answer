@@ -1,0 +1,435 @@
+,Prompt,Generated_Text,Correct_Answer,Parsed_Answer,Evaluation_Score,ParseFail
+1163,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_chemistry. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: The rate law may be written using stoichiometric coefficients for which of the following?
+                    A. Precipitation reactions
+                    B. Acid-base reactions
+                    C. Elementary processes
+                    D. Solubility reactions
+                    Answer:```
+
+    # Answer:
+    ```",The rate law may be written using stoichiometric coefficients for elementary processes.```,C,,0,True
+2008,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_european_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+Florence is more beautiful and five hundred forty years older than your Venice. … We have round about us thirty thousand estates, owned by nobleman and merchants, citizens and craftsman, yielding us yearly bread and meat, wine and oil, vegetables and cheese, hay and wood, to the value of nine thousand ducats in cash. … We have two trades greater than any four of yours in Venice put together—the trades wool and silk. … Our beautiful Florence contains within the city … two hundred seventy shops belonging to the wool merchant's guild, from whence their wares are sent to Rome and the Marches, Naples and Sicily, Constantinople … and the whole of Turkey. It contains also eighty-three rich and splendid warehouses of the silk merchant's guild.
+Benedetto Dei, ""Letter to a Venetian,"" 1472
+The passage may be used as evidence for the existence of which of the following Renaissance cultural characteristics?
+                    A. Pride in the mastery of the military arts
+                    B. Chivalry
+                    C. Civic pride
+                    D. Patronage of the arts
+                    Answer:```
+
+    # Answer:
+    ```",The passage may be used as evidence for the existence of civic pride.```,C,,0,True
+2606,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about abstract_algebra. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Find the characteristic of the ring Z_3 x 3Z.
+                    A. 0
+                    B. 3
+                    C. 12
+                    D. 30
+                    Answer:```
+
+    # Answer:
+    ```",The characteristic of the ring Z_3 x 3Z is 30.```,A,,0,True
+2638,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about abstract_algebra. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Find the characteristic of the ring Z_3 x Z_3.
+                    A. 0
+                    B. 3
+                    C. 12
+                    D. 30
+                    Answer:```
+
+    # Answer:
+    ```",The characteristic of the ring Z_3 x Z_3 is 3.```,B,,0,True
+2642,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about abstract_algebra. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Find the characteristic of the ring Z x Z.
+                    A. 0
+                    B. 3
+                    C. 12
+                    D. 30
+                    Answer:```
+
+    # Answer:
+    ```",The characteristic of the ring Z x Z is 30.```,A,,0,True
+3112,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about conceptual_physics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: The speed of sound in air depends on
+                    A. frequency.
+                    B. wavelength.
+                    C. air temperature.
+                    D. All of these.
+                    Answer:```
+
+    # Answer:
+    ```",The speed of sound in air depends on air temperature.```,C,,0,True
+3628,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_world_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+But the decline of Rome was the natural and inevitable effect of immoderate greatness. Prosperity ripened the principle of decay; the causes of destruction multiplied with the extent of conquest; and, as soon as time or accident had removed the artificial supports, the stupendous fabric yielded to the pressure of its own weight. . . . The victorious legions, who, in distant wars, acquired the vices of strangers and mercenaries, first oppressed the freedom of the republic, and afterwards violated the majesty of the purple. The emperors, anxious for their personal safety and the public peace, were reduced to the base expedient of corrupting the discipline which rendered them alike formidable to their sovereign and to the enemy; the vigour of the military . . . was relaxed . . . ; and the Roman world was overwhelmed by a deluge of Barbarians.
+—Adapted from Decline and Fall of the Roman Empire, by Edward Gibbon
+The reasons given in the above passage for the fall of the Roman Empire could also be applied to which other classical empires?
+                    A. Tang and Ottoman
+                    B. Ming and Aztec
+                    C. Han and Gupta
+                    D. Qin and Etruscan
+                    Answer:```
+
+    # Answer:
+    ```",The reasons given in the above passage for the fall of the Roman Empire could also be applied to the Tang and Ottoman empires.```,C,,0,True
+3733,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_world_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+At the peak of their power, the domains of the Mongol khans, or rulers, made up a vast realm in which once-hostile peoples lived together in peace and virtually all religions were tolerated. . . . The law code first promulgated by Chinggis Khan ordered human interaction. The result was an important new stage in international contact. From eastern Europe to southern China, merchants and travelers could move across the well-policed Mongol domains without fear for their lives or property. The great swath of Mongol territory that covered or connected most of Europe, Asia, and the Middle East served as a bridge between the civilizations of the Eastern Hemisphere. The caravans and embassies that crossed the Mongol lands transmitted new food, inventions, and ideas from one civilized pool to others and from civilized pools to the nomadic peoples who served as intermediaries. Secure trade routes made for prosperous merchants and wealthy, cosmopolitan cities. They also facilitated the spread of foods [and] inventions . . . a major force for economic and social development and the enhancement of civilized life.
+—Robert Guisepi, 1992
+The legacies or adaptations of legacies from the Mongol empire are varied. Most notably, they include which of the following selections?
+                    A. Public libraries
+                    B. Universal health care
+                    C. The game of chess
+                    D. Religious tolerance
+                    Answer:```
+
+    # Answer:
+    ```","The legacies or adaptations of legacies from the Mongol empire include public libraries, universal health care, and the game of chess.```",D,,0,True
+3753,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_world_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+""I travelled thence to 'Aden, the port of Yemen, on the coast of the ocean. It is surrounded by mountains and can be approached from one side only; it has no crops, trees, or water, but has reservoirs in which rainwater is collected. The Arabs often cut off the inhabitants from their supply of drinking-water until the they buy them off with money and pieces of cloth. It is an exceedingly hot place. It is the port of the Indians, and to it come large vessels from Kinbayat [Cambay], Kawlam [Quilon], Calicut and many other Malabar ports [on the south-west coast of India]. There are Indian merchants living there, as well as Egyptian merchants. Its inhabitants are all either merchants, porters, or fishermen. Some of the merchants are immensely rich, so rich that sometimes a single merchant is sole owner of a large ship with all it contains, and this is a subject of ostentation and rivalry amongst them. In spite of that they are pious, humble, upright, and generous in character, treat strangers well, give liberally to devotees, and pay in full the tithes due to God.""
+Ibn Battuta, ca. 1325–1354 C.E.
+The views expressed in this journal passage are best seen as evidence of which of the following concerning medieval Islamic societies?
+                    A. The absence of religious orthodoxy
+                    B. Hostility toward outsiders
+                    C. Limited economic opportunities
+                    D. The supremacy of piety
+                    Answer:```
+
+    # Answer:
+    ```",The views expressed in this journal passage are best seen as evidence of the supremacy of piety in medieval Islamic societies.```,D,,0,True
+3758,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_world_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+I don't know whether this world has meaning that transcends it. But I know that I do not know that meaning, and that it is impossible just now for me to know it. What can a meaning outside my condition mean to me? I can understand only in human terms.
+Albert Camus, ""The Myth of Sisyphus,"" 1955
+The passage above is best seen as exemplifying which of the following intellectual trends?
+                    A. A postwar reassertion of traditional religious values
+                    B. An expression of patriotic pride thanks to victory in World War II
+                    C. A modernist tendency to question the validity of faith-based moralities
+                    D. An increased willingness to embrace radical Marxism
+                    Answer:```
+
+    # Answer:
+    ```",The passage above is best seen as exemplifying an expression of patriotic pride thanks to victory in World War II.```,C,,0,True
+3766,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_world_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+New York! I say New York, let black blood flow into your blood.
+Let it wash the rust from your steel joints, like an oil of life
+Let it give your bridges the curve of hips and supple vines…
+See your rivers stirring with musk alligators
+And sea cows with mirage eyes…
+Just open your eyes to the April rainbow
+And your eyes, especially your ears, to God
+Who in one burst of saxophone laughter
+Created heaven and earth in six days,
+And on the seventh slept a deep Negro sleep.
+Senegalese poet Léopold Sédar Senghor, ""To New York,"" 1956
+The verse above is best seen as belonging to which of the following modern cultural developments?
+                    A. The triumph of avant-garde literary styles over traditional realism
+                    B. The adaptation of Western literary forms by non-Western authors
+                    C. The political use of art and literature for propagandistic purposes
+                    D. The response of interwar literary figures to the horrors of World War I
+                    Answer:```
+
+    # Answer:
+    ```",The verse above is best seen as belonging to the adaptation of Western literary forms by non-Western authors.```,B,,0,True
+5423,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about professional_law. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: A defendant offers into evidence his computer business records to show his good faith monitoring of the accounts in his business. The defendant testifies that he kept the records on a regular business basis  but did not explain the records in any other way. The government objected to the records as being hearsay and not authenticated. What will the court decide regarding the admissibility of the computer business records?
+                    A. The court will allow the records because they were kept in the ordinary course of business.
+                    B. The court will require a greater foundation to establish the reliability of the records.
+                    C. The court will dismiss the hearsay objection because the defendant, who is the declarant, is available in court.
+                    D. The court will allow the records because they are the product of a reliable computer process of data collection.
+                    Answer:```
+
+    # Answer:
+    ```",The court will allow the records because they are the product of a reliable computer process of data collection.```,B,,0,True
+7888,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about college_computer_science. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: In which of the following representations of numbers by 8-bit words is the addition of the integers 109 and -42 within range?
+I. One's complement
+II. Two's complement
+III. Sign and magnitude
+                    A. I only
+                    B. II only
+                    C. I and II only
+                    D. I, II, and III
+                    Answer:```
+
+    # Answer:
+    ```",The correct answer is II. Two's complement.```,D,,0,True
+9043,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about elementary_mathematics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: The value of the digit 5 in 24,513 is how many times the value of the digit 5 in 357?
+                    A. 10
+                    B. 100
+                    C. 1,000
+                    D. 10,000
+                    Answer:```
+
+    # Answer:
+    ```","The value of the digit 5 in 24,513 is 10 times the value of the digit 5 in 357.```",A,,0,True
+12233,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about college_medicine. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: The descending loop of Henle of the nephron of the kidney is permeable to which of the following substances?
+                    A. Na+
+                    B. H2O
+                    C. K+
+                    D. Cl-
+                    Answer:```
+
+    # Answer:
+    ```",The descending loop of Henle of the nephron of the kidney is permeable to water and is responsible for concentrating urine.```,B,,0,True
+12644,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_mathematics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: What is the magnitude of the vector v = (5, 0, 7)?
+                    A. 0
+                    B. 3.5
+                    C. 4.2
+                    D. 8.6
+                    Answer:```
+
+    # Answer:
+    ```","The magnitude of the vector v = (5, 0, 7) is 8.6.```",D,,0,True
+12649,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_mathematics. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: What is the greatest possible quotient of any two distinct members of the set $\{\frac{2}{5}, \frac{1}{2},5,10\}$? Specifically, we wish to maximize $\frac{x}{y}$, where $x$ and $y$ are chosen from the previous set.
+                    A. 5
+                    B. 10
+                    C. 20
+                    D. 25
+                    Answer:```
+
+    # Answer:
+    ```","The greatest possible quotient of any two distinct members of the set $\{\frac{2}{5}, \frac{1}{2},5,10\}$ is 25, which is achieved by choosing $x = 10$ and $y = 2$.",D,,0,True
+13340,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about high_school_us_history. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: This question refers to the following information.
+""When we were kids the United States was the wealthiest and strongest country in the world; the only one with the atom bomb, the least scarred by modern war, an initiator of the United Nations that we thought would distribute Western influence throughout the world. Freedom and equality for each individual, government of, by, and for the people—these American values we found good, principles by which we could live as men. Many of us began maturing in complacency.
+""As we grew, however, our comfort was penetrated by events too troubling to dismiss. First, the permeating and victimizing fact of human degradation, symbolized by the Southern struggle against racial bigotry, compelled most of us from silence to activism. Second, the enclosing fact of the Cold War, symbolized by the presence of the Bomb, brought awareness that we ourselves, and our friends, and millions of abstract 'others' we knew more directly because of our common peril, might die at any time. . . .""
+—Port Huron Statement, 1962
+The primary intended audience for the Port Huron Statement was
+                    A. African Americans in the South.
+                    B. government officials.
+                    C. middle-class college students.
+                    D. factory workers.
+                    Answer:```
+
+    # Answer:
+    ```",The primary intended audience for the Port Huron Statement was middle-class college students.```,C,,0,True
+13448,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about formal_logic. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Identify the antecedent of the following conditional proposition: The university raises tuition if, and only if, both the governor approves of it and the board of trustees recommends it.
+                    A. The university raises tuition.
+                    B. The governor approves of it.
+                    C. The board of trustees recommends it.
+                    D. None of the above
+                    Answer:```
+
+    # Answer:
+    ```","The antecedent of the conditional proposition is ""The board of trustees recommends it.""```",D,,0,True
+13525,"# Instruction
+    Below is a list of conversations between a human and an AI assistant (you).
+    Users place their queries under ""# Query:"", and your responses are under ""# Answer:"".
+    You are a helpful, respectful, and honest assistant.
+    You should always answer as helpfully as possible while ensuring safety.
+    Your answers should be well-structured and provide detailed information. They should also have an engaging tone.
+    Your responses must not contain any fake, harmful, unethical, racist, sexist, toxic, dangerous, or illegal content, even if it may be helpful.
+    Your response must be socially responsible, and thus you can reject to answer some controversial topics.
+
+    # Query:
+    ```Answer the following multiple choice question about formal_logic. Respond with a single sentence of the form ""The correct answer is _"", filling the blank with the letter corresponding to the correct answer (i.e., A, B, C or D).
+                    Question: Identify the antecedent of the following conditional proposition: When the university raises tuition, then either the governor approves of it or the board of trustees doesn't prevent it.
+                    A. The university raises tuition.
+                    B. The governor approves of it.
+                    C. The board of trustees prevents it.
+                    D. The board of trustees doesn't prevent it.
+                    Answer:```
+
+    # Answer:
+    ```","The antecedent of the conditional proposition is ""The university raises tuition.""```",A,,0,True
