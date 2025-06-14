@@ -1,17 +1,15 @@
-# CS336 GitHub Repository
+# Stanford CS336 assignments answer
 
-这里是我在 CS336 课程中的作业代码。
+This is my implementation of Stanford CS336 assignments. I also share my notes while doing these assignments on [小红书](https://www.xiaohongshu.com/user/profile/5a9409554eacab27ee3c50b0). 
+### TODO
 
-## 已完成作业
+- [ ] Homework 1 of spring 2025
+- [ ] Homework 2 of spring 2025
+- [ ] Homework 3 of spring 2025
+- [ ] Homework 4 of spring 2025
+- [ ] Homework 5 of spring 2025
 
-- Spring 2024
-  - [已完成] 作业 5
 
-## 待办事项（Todo List）
+### Done ✓
 
-- Spring 2025
-  - 作业 1
-  - 作业 2
-  - 作业 3
-  - 作业 4
-  - 作业 5
+- [ x ] Homework 5 of spring 2024
