@@ -12,4 +12,4 @@ This is my implementation of Stanford CS336 assignments. I also share my notes w
 
 ### Done ✓
 
-- [ x ] Homework 5 of spring 2024
+- [x] Homework 5 of spring 2024
