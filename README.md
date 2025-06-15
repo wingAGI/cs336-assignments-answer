@@ -1,6 +1,6 @@
 # Stanford CS336 assignments answer
 
-This is my implementation of Stanford CS336 assignments. I also share my notes while doing these assignments on [小红书](https://www.xiaohongshu.com/user/profile/5a9409554eacab27ee3c50b0). 
+This is my implementation of [Stanford CS336 assignments](https://github.com/stanford-cs336). I also share my notes while doing these assignments on [小红书](https://www.xiaohongshu.com/user/profile/5a9409554eacab27ee3c50b0). 
 ### TODO
 
 - [ ] Homework 1 of spring 2025
