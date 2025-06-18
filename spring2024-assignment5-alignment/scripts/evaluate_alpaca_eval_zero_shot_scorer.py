@@ -23,7 +23,7 @@ def get_model_output(model_name):
     return eval_set
 
 
-your_api_key = "sk-d2fb431427654384a6411c57011d80c5"    # "<DeepSeek API Key>"
+your_api_key = "<DeepSeek API Key>"    # "<DeepSeek API Key>"
 client = OpenAI(api_key=your_api_key, base_url="https://api.deepseek.com")
 
 

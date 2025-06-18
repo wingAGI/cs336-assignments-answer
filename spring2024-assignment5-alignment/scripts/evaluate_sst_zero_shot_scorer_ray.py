@@ -29,7 +29,7 @@ print(f"There are {len(model_outputs)} examples")
 ray.init()
 
 # 假设 client 是你的 DeepSeek 客户端实例
-your_api_key = "sk-d2fb431427654384a6411c57011d80c5"    # "<DeepSeek API Key>"
+your_api_key = "<DeepSeek API Key>"    # "<DeepSeek API Key>"
 
 
 
