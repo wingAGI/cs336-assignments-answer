@@ -13,3 +13,6 @@ This is my implementation of [Stanford CS336 assignments](https://github.com/sta
 ### Done ✓
 
 - [x] Homework 5 of spring 2024
+
+### How to test
+For HW1 of spring2025, just replace file `tests/adapters.py` in the original reppo with `sp25/hw1/adapters.py` and run `uv run pytest`.
