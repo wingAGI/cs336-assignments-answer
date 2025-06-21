@@ -800,11 +800,9 @@ def run_save_checkpoint(
     }
     
     if isinstance(out, (str, os.PathLike)):
-        # 如果 out 是文件路径，则以二进制写入模式打开文件
         with open(out, 'wb') as f:
             torch.save(checkpoint, f)
     else:
-        # 如果 out 是文件对象，则直接使用
         torch.save(checkpoint, out)
 
 def run_load_checkpoint(
@@ -825,19 +823,15 @@ def run_load_checkpoint(
     Returns:
         int: the previously-serialized number of iterations.
     """
-    # 如果 src 是字符串或路径对象，则将其作为文件路径打开
     if isinstance(src, (str, os.PathLike)):
         with open(src, 'rb') as f:
             checkpoint = torch.load(f)
     else:
-        # 否则，假设 src 是一个已经打开的文件对象
         checkpoint = torch.load(src)
 
-    # 加载模型和优化器的状态字典
     model.load_state_dict(checkpoint['model_state_dict'])
     optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
 
-    # 返回之前保存的迭代次数
     return checkpoint['iteration']
 
 
@@ -901,44 +895,6 @@ class Tokenizer:
                 new_id = len(self.vocab)
                 self.vocab[new_id] = token_bytes
                 self.byte_to_token_id[token_bytes] = new_id
-
-    # @classmethod
-    # def from_files(
-    #     cls,
-    #     vocab_filepath: str,
-    #     merges_filepath: str,
-    #     special_tokens: list[str] | None = None,
-    # ) -> "Tokenizer":
-    #     """
-    #     Class method to construct a Tokenizer from serialized vocabulary and merges files.
-        
-    #     Args:
-    #         vocab_filepath: Path to the file containing the vocabulary.
-    #         merges_filepath: Path to the file containing the BPE merges.
-    #         special_tokens: Optional list of special tokens to include in the tokenizer.
-            
-    #     Returns:
-    #         An instance of Tokenizer initialized with the provided data.
-    #     """
-    #     # Load vocabulary
-    #     vocab = {}
-    #     with open(vocab_filepath, "r", encoding="utf-8") as f:
-    #         for line in f:
-    #             if not line.strip():
-    #                 continue
-    #             token_id, token_bytes = line.strip().split("\t")
-    #             vocab[int(token_id)] = token_bytes.encode("utf-8")
-
-    #     # Load merges
-    #     merges = []
-    #     with open(merges_filepath, "r", encoding="utf-8") as f:
-    #         for line in f:
-    #             if not line.strip():
-    #                 continue
-    #             a, b = line.strip().split()
-    #             merges.append((a.encode("utf-8"), b.encode("utf-8")))
-
-    #     return cls(vocab=vocab, merges=merges, special_tokens=special_tokens)
 
     def encode(self, text: str) -> list[int]:
         """
