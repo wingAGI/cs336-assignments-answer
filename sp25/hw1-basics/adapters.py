@@ -97,9 +97,9 @@ def run_swiglu(
     # swiglu.w1.weight.data = w1_weight
     # swiglu.w2.weight.data = w2_weight
     # swiglu.w3.weight.data = w3_weight
-    cond = torch.nn.functional.silu(torch.matmul(in_features, w1_weight.T))
+    cond = run_silu(torch.matmul(in_features, w1_weight.T))
     x = torch.matmul(in_features, w3_weight.T)
-
+    
     return torch.matmul(cond * x, w2_weight.T)
 
 
@@ -659,7 +659,17 @@ def run_cross_entropy(inputs: Float[Tensor, " batch_size vocab_size"], targets: 
     Returns:
         Float[Tensor, ""]: The average cross-entropy loss across examples.
     """
-    return torch.nn.functional.cross_entropy(inputs, targets)
+    # Log-softmax for numerical stability (log(softmax(inputs)))
+    log_softmax = inputs - inputs.logsumexp(dim=1, keepdim=True)
+    
+    # Gather the log probabilities of the target classes
+    # Equivalent to: log_softmax[range(N), targets]
+    target_log_probs = log_softmax.gather(1, targets.unsqueeze(1)).squeeze(1)
+    
+    # Negative mean of the target log probabilities
+    loss = -target_log_probs.mean()
+    
+    return loss
 
 
 def run_gradient_clipping(parameters: Iterable[torch.nn.Parameter], max_l2_norm: float) -> None:
@@ -671,7 +681,22 @@ def run_gradient_clipping(parameters: Iterable[torch.nn.Parameter], max_l2_norm:
 
     The gradients of the parameters (parameter.grad) should be modified in-place.
     """
-    torch.nn.utils.clip_grad_norm_(parameters, max_l2_norm)
+    # Filter parameters with gradients
+    parameters_with_grad = [p for p in parameters if p.grad is not None]
+    
+    if len(parameters_with_grad) == 0:
+        return
+    
+    # Calculate total L2 norm of all gradients
+    total_norm = torch.sqrt(sum(torch.sum(p.grad.pow(2)) for p in parameters_with_grad))
+    
+    # Calculate clipping coefficient
+    clip_coef = max_l2_norm / (total_norm + 1e-6)  # Add small value to avoid division by zero
+    
+    # If total norm exceeds max_norm, scale down all gradients
+    if clip_coef < 1.0:
+        for p in parameters_with_grad:
+            p.grad.mul_(clip_coef)
 
 def get_adamw_cls() -> type[torch.optim.Optimizer]:
     """
