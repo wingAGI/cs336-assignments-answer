@@ -25,6 +25,7 @@ This is my implementation of [Stanford CS336 assignments](https://github.com/sta
 (1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw4-data/adapters.py`.
 
 (2) Download these three models to the `cs336_data` directory as instructed in the assignment.
+
     - lid.176.bin
     - jigsaw_fasttext_bigrams_nsfw_final.bin
     - jigsaw_fasttext_bigrams_hatespeech_final.bin
