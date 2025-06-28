@@ -2,9 +2,9 @@
 
 This is my implementation of [Stanford CS336 assignments](https://github.com/stanford-cs336). I also share my notes while doing these assignments on [小红书](https://www.xiaohongshu.com/user/profile/5a9409554eacab27ee3c50b0). 
 
-## Progress
+# Progress
 
-### Pass `pytest`
+## Pass `pytest`
 
 - [x] Homework 1 of spring 2025
 - [ ] Homework 2 of spring 2025
@@ -13,13 +13,27 @@ This is my implementation of [Stanford CS336 assignments](https://github.com/sta
 - [x] Homework 5 of spring 2025
 - [x] Homework 5 of spring 2024
 
+## Experiments
+
+- [x] Train your own tokenizer
+- [x] Train and test your own LLM
 
 
-## How to test
+# How to test
 ### HW1
-(1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw1-basics/adapters.py`.
+To pass tests, you can:
+
+(1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw1-basics/tests/adapters.py`.
 
 (2) Run `uv run pytest`.
+
+After your pass tests, you can use extra scripts in `sp25/hw1-basics/scripts` to run some experiments, see the following instructions:
+
+1. Download the text data in `txt` format to the `data/` directory.
+2. Run `uv run python scripts/train_bpe.py`. Train the tokenizer. 
+3. Run `uv run python scripts/tokenize.py`. Use the trained tokenizer to encode the original training data in `txt` format into integer ids and save it as a one-dimensional array in dat format for easy access during training.
+4. Run `uv run python scripts/train.py`. Train the model. The default configuration is to train for 5000 steps with a context length of 256 and a batch size of 32, which is a total of 256 x 32 x 5000 = 40M tokens.
+5. Run `uv run python scripts/generate.py`. Test the model's ability to generate stories.
 
 ### HW2
 (1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw4-data/adapters.py`.
@@ -51,3 +65,4 @@ In fact, `sp25/hw4-data/main.py` contains a script for building a quality classi
 
 ### HW5 of spring2024
 See `spring2024-assignment5-alignment/README.md`.
+
