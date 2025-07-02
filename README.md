@@ -35,7 +35,7 @@ After your pass tests, you can use extra scripts in `sp25/hw1-basics/scripts` to
 4. Run `uv run python scripts/train.py`. Train the model. The default configuration is to train for 5000 steps with a context length of 256 and a batch size of 32, which is a total of 256 x 32 x 5000 = 40M tokens.
 5. Run `uv run python scripts/generate.py`. Test the model's ability to generate stories.
 
-### HW2
+### HW4
 (1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw4-data/adapters.py`.
 
 (2) Download these three models to the `cs336_data` directory as instructed in the assignment.
