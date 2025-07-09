@@ -36,7 +36,7 @@ After your pass tests, you can use extra scripts in `sp25/hw1-basics/scripts` to
 5. Run `uv run python scripts/generate.py`. Test the model's ability to generate stories.
 
 ### HW4
-(1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw4-data/adapters.py`.
+(1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw4-data/tests/adapters.py`.
 
 (2) Download these three models to the `cs336_data` directory as instructed in the assignment.
 
@@ -50,6 +50,11 @@ After your pass tests, you can use extra scripts in `sp25/hw1-basics/scripts` to
 
 
 In fact, `sp25/hw4-data/main.py` contains a script for building a quality classifier, on the condition that you already have high-quality pages downloaded in the `cs336_data/download_pages` directory, feel free to try it.
+
+### HW4 Guide: Collect data, filtering and deduplication
+(1) Run `bash get_wet_parallel.sh` in `sp25/hw4-data/pipeline_data/` to download data.
+(2) Run `uv run python tests/pipeline.py` to filter data.
+(3) Run `uv run python tests/pipeline_dedup.py` to do deduplication.
 
 ### HW5
 (1) Replace file `tests/adapters.py` in the original reppo with `sp25/hw5-alignment/adapters.py`.
