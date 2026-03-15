@@ -6,7 +6,7 @@ import pathlib
 import argparse
 import numpy as np
 from tqdm import tqdm
-from utils importt _to_device_and_compile
+from utils import _to_device_and_compile
 from model import BasicsTransformerLM
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from tests.adapters import *

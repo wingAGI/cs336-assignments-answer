@@ -256,7 +256,6 @@ def compute_per_instance_dpo_loss(
     rejected_log_prob = rejected_log_probs[:, :-1, :].gather(-1, rejected_input_ids[:, 1:, None]).squeeze(-1).sum(dim=-1)
     chosen_ref_log_prob = chosen_ref_log_probs[:, :-1, :].gather(-1, chosen_input_ids[:, 1:, None]).squeeze(-1).sum(dim=-1)
     rejected_ref_log_prob = rejected_ref_log_probs[:, :-1, :].gather(-1, rejected_input_ids[:, 1:, None]).squeeze(-1).sum(dim=-1)
-    import pdb; pdb.set_trace()
     # 计算 DPO 损失
     chosen_ratios, rejected_ratios = chosen_log_prob - chosen_ref_log_prob, rejected_log_prob - rejected_ref_log_prob
     

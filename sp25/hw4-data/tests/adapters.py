@@ -39,7 +39,6 @@ def run_extract_text_from_html_bytes(html_bytes: bytes) -> str | None:
             except (UnicodeDecodeError, LookupError):
                 # 如果检测到的编码也无法解码，则返回 None
                 print("无法识别编码，encoding:", encoding)
-                # import pdb; pdb.set_trace()
                 return None
         else:
             # 如果无法检测到编码，则返回 None

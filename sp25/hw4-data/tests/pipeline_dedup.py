@@ -87,7 +87,6 @@ def run_minhash_deduplication(
         lines = f.readlines()
 
     # min_length = min(len(line) for line in lines)
-    # import pdb; pdb.set_trace()     # 188
     print(f"Total chunks = {len(lines) // chunk_size + 1}")
     for chunk_idx, strat in tqdm(enumerate(range(0, len(lines), chunk_size)), desc="Processing chunks", leave=True):
         chunk = lines[strat:strat+chunk_size]

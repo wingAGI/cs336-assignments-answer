@@ -30,7 +30,7 @@ def filter_pipeline(log_harmful=False):
     1. 过滤掉非英文
     2. 过滤掉有害内容
     """
-    FIEL_AFTER_LANG = "tmp/after_lang.txt"
+    FILE_AFTER_LANG = "tmp/after_lang.txt"
     FIEL_AFTER_HARM = "tmp/after_harm.txt"
     
     SCORE_THRESHOLD = 0.5
@@ -57,7 +57,7 @@ def filter_pipeline(log_harmful=False):
         return results
         
     # 保证tmp目录存在
-    os.makedirs(os.path.dirname(FIEL_AFTER_LANG), exist_ok=True)
+    os.makedirs(os.path.dirname(FILE_AFTER_LANG), exist_ok=True)
     total_lines = 0
     total_origin_lines = 0  # 去掉50字符以下的行后
     total_en_lines = 0
@@ -79,7 +79,7 @@ def filter_pipeline(log_harmful=False):
                 result.append(' '.join(block))
         return result
 
-    with open(FIEL_AFTER_LANG, "w", encoding='utf8') as out_f:
+    with open(FILE_AFTER_LANG, "w", encoding='utf8') as out_f:
         files = [file for file in os.listdir(WET_PATH)]
         for file in tqdm(files, desc="Processing files"):
             file_path = os.path.join(WET_PATH, file)
@@ -159,7 +159,7 @@ def filter_pipeline(log_harmful=False):
 
 
 def filter_lang_en():
-    FIEL_AFTER_LANG = "tmp/after_lang.txt"
+    FILE_AFTER_LANG = "tmp/after_lang.txt"
     SCORE_THRESHOLD = 0.5
     CHUNK_SIZE = 100            # batch size
     LINES_PER_TEXT = 10
@@ -181,7 +181,7 @@ def filter_lang_en():
         return results
         
     # 保证tmp目录存在
-    os.makedirs(os.path.dirname(FIEL_AFTER_LANG), exist_ok=True)
+    os.makedirs(os.path.dirname(FILE_AFTER_LANG), exist_ok=True)
     total_origin_lines = 0
     total_en_lines = 0
 
@@ -199,7 +199,7 @@ def filter_lang_en():
                 result.append(' '.join(block))
         return result
 
-    with open(FIEL_AFTER_LANG, "w", encoding='utf8') as out_f:
+    with open(FILE_AFTER_LANG, "w", encoding='utf8') as out_f:
         files = [file for file in os.listdir(WET_PATH)]
         for file in tqdm(files, desc="Processing files"):
             file_path = os.path.join(WET_PATH, file)
@@ -232,7 +232,7 @@ def filter_lang_en():
 
 
 def filter_harmful():
-    FIEL_AFTER_LANG = "tmp/after_lang.txt"
+    FILE_AFTER_LANG = "tmp/after_lang.txt"
     FIEL_AFTER_HARM = "tmp/after_harm.txt"
     HARM = "tmp/detected_harm.txt"
     
@@ -240,7 +240,7 @@ def filter_harmful():
     nsfw_model = fasttext.load_model(NSFW_MODEL_PATH)
     toxic_model = fasttext.load_model(TOXIC_MODEL_PATH)
 
-    with open(FIEL_AFTER_LANG, "r", encoding='utf8') as f:
+    with open(FILE_AFTER_LANG, "r", encoding='utf8') as f:
         lines = f.readlines()
     
     lines = [line.strip() for line in lines]
